@@ -1,0 +1,2 @@
+# myFirstFigmaResponsiveDesign
+for learning purposes
