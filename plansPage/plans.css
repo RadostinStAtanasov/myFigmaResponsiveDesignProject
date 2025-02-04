@@ -2,9 +2,11 @@
     --color-dark-100: #212529;
     --color-white-100: #FFFFFF;
     --color-green-100: #74C69D;
+    --color-white-50: #FFFFFF80;
+    --color-dark-50: #21252980;
 
     font-family: 'Work Sans', Arial, sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 125%;
 }
 
@@ -109,6 +111,58 @@ h1 {
 }
 
 .card {
-    width: 340px;
-    height: 540px;
+    width: 280px;
+    height: 450px;
+    border: 1px solid black;
+}
+
+.card-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.card-paragraph {
+
+    width: 280px;
+    height: 60px;
+    text-align: center;
+    /* margin: 50px 0; */
+    color: var(--color-dark-50);
+
+}
+
+ol {
+    list-style: none;
+    margin-bottom: 45px;
+}
+
+ol li:before {
+    content: '✓ ';
+    color: var(--color-green-100);
+}
+
+button {
+    color: var(--color-white-100);
+    background-color: var(--color-dark-100);
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.price-card {
+    color: var(--color-dark-100);
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.card-price-word {
+    display: flex;
+    justify-content: space-between;
+    color: var(--color-dark-50);
+    width: 160px;
 }
