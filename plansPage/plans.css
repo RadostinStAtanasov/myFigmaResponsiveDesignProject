@@ -3,6 +3,9 @@
     --color-white-100: #FFFFFF;
     --color-green-100: #74C69D;
 
+    font-family: 'Work Sans', Arial, sans-serif;
+    font-size: 15px;
+    line-height: 125%;
 }
 
 .header-container {
@@ -12,6 +15,7 @@
     display: grid;
     justify-content: center;
     align-content: center;
+    margin-bottom: 15px;
 }
 
 body {
@@ -50,10 +54,61 @@ a {
 .container-logo {
     width: 190px;
     display: flex;
-    justify-content:  space-between;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
     color: var(--color-white-100);
     font-size: 2.5rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.sub-heading {
+    font-size: 1.25rem;
+    line-height: 125%;
+    /* letter-spacing: 1px; */
+}
+
+.plans-container {
+    display: flex;
+    justify-content: center;
+}
+
+.plans-conteiner-content {
+    width: 410px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    font-family: 'Crimson Text';
+    font-size: 1.75rem;
+    font-weight: bold;
+    line-height: 125%;
+    color: var(--color-green-100);
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-family: 'Crimson Text';
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 125%;
+    color: var(--color-dark-100);
+    letter-spacing: 1px;
+}
+
+.sub-text {
+    font-family: 'Work Sans', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.card {
+    width: 340px;
+    height: 540px;
 }
