@@ -1,12 +1,19 @@
 :root {
-    --color-dark-100: #212529;
     --color-white-100: #FFFFFF;
-    --color-green-100: #74C69D;
     --color-white-50: #FFFFFF80;
+    --color-green-100: #74C69D;
+    --color-dark-100: #212529;
+    --color-dark-75: #212529BF;
     --color-dark-50: #21252980;
+    --color-dark-25: #21252940;
+
+    --color-red-100: #ff0000;
+    --color-red-75: #ff0000BF;
+    --color-red-50: #ff000080;
+    --color-red-25: #ff000040;
 
     font-family: 'Work Sans', Arial, sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 125%;
 }
 
@@ -83,6 +90,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 80px;
 }
 
 h3 {
@@ -110,17 +118,30 @@ h1 {
     text-align: center;
 }
 
+
+        /* Card*/
+
+
 .card {
-    width: 280px;
-    height: 450px;
-    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 540px;
+    border-radius: 5px;
+    box-shadow: 3px 4px 12px var(--color-dark-25);
 }
 
 .card-head {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-bottom: 50px;
+    align-items: center;    
+}
+
+h5 {
+    font-weight: 400;
+    font-size: 0.9375rem;
+    color: var(--color-dark-100);
 }
 
 .card-paragraph {
@@ -128,18 +149,28 @@ h1 {
     width: 280px;
     height: 60px;
     text-align: center;
-    /* margin: 50px 0; */
+    margin-bottom: 50px;
     color: var(--color-dark-50);
-
+    font-size: 0.9375rem;
+    font-weight: 400;
 }
 
 ol {
+    display: flex;
+    flex-direction: column;
     list-style: none;
-    margin-bottom: 45px;
+    width: 200px;
+    height: 170px;
+    margin-left: -30px;
+
+    text-align: left;
 }
 
+
 ol li:before {
-    content: '✓ ';
+    content: '✓';
+    left: -10px;
+    position: relative;
     color: var(--color-green-100);
 }
 
@@ -158,6 +189,7 @@ button {
     font-size: 2.5rem;
     letter-spacing: 1px;
     font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .card-price-word {
@@ -165,4 +197,26 @@ button {
     justify-content: space-between;
     color: var(--color-dark-50);
     width: 160px;
+}
+
+.card-content {
+    width: 280px;
+    height: 450px;
+}
+
+.btn {
+    width: 170px;
+    height: 50px;
+    color: var(--color-white-100);
+    border-radius: 5px;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 400;
+    
+    /* margin-bottom: 45px; */
+}
+
+.container-cards {
+    display: flex;
+    justify-content: space-around;
 }
