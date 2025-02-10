@@ -12,8 +12,8 @@
     --color-red-50: #ff000080;
     --color-red-25: #ff000040;
 
-    font-family: 'Work Sans', Arial, sans-serif;
-    font-size: 15px;
+    font-family: 'Crimson Text', Arial, sans-serif;
+    font-size: 16px;
     line-height: 125%;
 }
 .burger-menu {
@@ -38,17 +38,19 @@ body {
     margin: 0px;
 }
 .site-content {
-    width: 1180px;
+    width: 1175px;
 }
 
 .header-container-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 50px;
 }
 
 .navigation-menu {
-    width: 390px;
+    width: 391px;
+    height: 25px;
 }
 
 .navigation-menu ul {
@@ -58,7 +60,10 @@ body {
 
 ul {
     display: flex;
-    list-style-type: none;;
+    align-items: center;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
 }
 
 a {
@@ -66,64 +71,93 @@ a {
     text-decoration: none;
 }
 
+.header-logo {
+    height: 48,31px;
+    width: 70px;
+}
+
+
 .container-logo {
-    width: 190px;
+    width: 187px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 18px;
 }
 
 .logo {
+    font-family: 'Work Sans', Arial, sans-serif;
     color: var(--color-white-100);
     font-size: 2.5rem;
-    letter-spacing: 1px;
-    font-weight: bold;
+    font-weight: 500;
+    width: 99px;
+    
 }
 
+
+/* our services - plans */
+
+.header-our-services-margin-5-more {
+    margin-bottom: 35px;
+}
 
 .plans-container {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
-.plans-conteiner-content {
-    width: 410px;
+.plans-portfolio-partner-conteiner-content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 80px;
+    /* justify-content: space-between; */
+    gap: 16px;
+    width: 411px;
+    height: 162px;
+    /* margin: 0px; */
 }
 
-h3 {
-    font-family: 'Crimson Text';
-    font-size: 1.75rem;
-    font-weight: bold;
-    line-height: 125%;
-    color: var(--color-green-100);
-    /* letter-spacing: 1px; */
-}
 
 h1 {
-    font-family: 'Crimson Text';
     font-size: 2.5rem;
     font-weight: bold;
     line-height: 125%;
     color: var(--color-dark-100);
-    /* letter-spacing: 1px; */
+    margin: 0;
 }
 
-.sub-text {
+.label {
     font-family: 'Work Sans', Arial, sans-serif;
-    font-size: 1.25rem;
-    font-weight: 400;
-    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: var(--color-green-100);
 }
+
+.label-work-width {
+    width: 80px;
+}
+
+h5 {
+    font-weight: 400;
+    font-size: 0.9375rem;
+    color: var(--color-dark-100);
+}
+
 
 .sub-heading {
     font-family: 'Work Sans', Arial, sans-serif;
     font-size: 1.25rem;
-    line-height: 125%;
     font-weight: 400;
+    width: 411px;
+    height: 60px;
+    text-align: center;
+    line-height: 2;
+    /* white-space: pre; */
+    /* letter-spacing: 5px; */
+    /* margin: 0; */
 }
 
 /* Card*/
@@ -149,11 +183,6 @@ h1 {
     align-items: center;    
 }
 
-h5 {
-    font-weight: 400;
-    font-size: 0.9375rem;
-    color: var(--color-dark-100);
-}
 
 .card-paragraph {
 
@@ -322,6 +351,51 @@ footer {
     color: var(--color-white-100);
 }
 
+
+/* portfolio */
+
+p {
+    margin: 0;
+}
+
+.portfolio-h1 {
+    width: 157px;
+}
+
+.portfolio-conteiner-content-margin-bottom {
+    margin-bottom: 82px;
+}
+
+.header-portfolio-margin-5-more {
+    margin-bottom: 30px;
+}
+
+.our-services-galeria-imgs-container {
+    display: flex;
+    justify-content: center;
+}
+
+.container-img-portfolio {
+    width: 570px;
+}
+
+.our-services-galeria-imgs-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap:55px;
+    width: 1190px;
+    height: 1570px;
+
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+.portfolio-btn {
+    margin-bottom: 99px;
+}
+
 @media  (max-width: 1200px){
     .site-content {
         width: 900px;
@@ -386,14 +460,7 @@ footer {
         align-items: center;
         width: 700px;
     }
-    /* .form-contact-container-content {
-    } */
-    /* .form-contact-container-content img {
-        width: 300px;
-    }
-    .form-contact-input-form, input, #contact-us-last-input {
-        width: 300px;
-    } */
+   
 }
 
 @media (max-width: 700px) {
