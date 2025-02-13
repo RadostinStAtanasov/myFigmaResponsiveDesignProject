@@ -24,9 +24,16 @@ header {
     margin: 0;
 }
 
-.header-container {
-    width: 100%;
+.header-container-home-page-height {
+    max-height: 590px;
+}
+
+.header-container-height-without-home-page {
     height: 120px;
+}
+
+.header-container {
+    max-width: 100%;
     background-color: var(--color-green-100);
     display: grid;
     justify-content: center;
@@ -37,6 +44,7 @@ header {
 body {
     margin: 0px;
 }
+
 .site-content {
     width: 1175px;
 }
@@ -46,6 +54,37 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 50px;
+    
+}
+
+.header-container-content-margin-home-page {
+    margin-top: 35px;
+    margin-bottom: 40px;
+}
+
+.header-container-content-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container-idea-section-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 420px;
+    margin-bottom: 25px;
+}
+
+.header-container-idea-section-content-wrapper {
+    max-height: 300px;
+}
+
+.header-container-idea-section {
+    display: flex;
+    justify-content: space-between;
+    max-height: 380px;
+    margin-bottom: 83px;
 }
 
 .navigation-menu {
@@ -116,6 +155,13 @@ a {
     height: 162px;
 }
 
+.h1-white {
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 125%;
+    color: var(--color-white-100);
+    margin: 0;
+}
 
 h1 {
     font-size: 2.5rem;
@@ -125,27 +171,22 @@ h1 {
     margin: 0;
 }
 
+.label-white {
+    font-family: 'Work Sans', Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: var(--color-white-100);
+}
+
 .label {
     font-family: 'Work Sans', Arial, sans-serif;
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 5px;
     color: var(--color-green-100);
-}
-
-.label-work-width {
-    width: 80px;
-}
-
-h5 {
-    font-weight: 400;
-    font-size: 0.9375rem;
-    color: var(--color-dark-100);
-}
-
-.plans-container p {
-    line-height: 1.7;
 }
 
 .sub-heading {
@@ -156,6 +197,27 @@ h5 {
     height: 60px;
     text-align: center;
 }
+
+.label-work-width {
+    width: 80px;
+}
+
+.body-regular-text-white {
+    font-size: 0.9375rem;
+    font-weight:400;
+    color: var(--color-white-100);
+}
+
+.body-regular-text-black {
+    font-size: 0.9375rem;
+    font-weight: 400;
+    color: var(--color-dark-100);
+}
+
+.plans-container p {
+    line-height: 1.7;
+}
+
 
 /* Card*/
 
@@ -239,6 +301,17 @@ button {
 .card-content {
     width: 280px;
     height: 450px;
+}
+
+.btn-white {
+    background-color: var(--color-white-100);
+    width: 170px;
+    height: 50px;
+    color: var(--color-dark-100);
+    border-radius: 5px;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: bold;
 }
 
 .btn {
