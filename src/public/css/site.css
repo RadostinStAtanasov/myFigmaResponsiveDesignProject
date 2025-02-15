@@ -22,12 +22,12 @@
     font-size: 2.5rem;
     font-weight: bold;
 }
-.heading-1-black {
+/* .heading-1-black {
     font-size: 2.5rem;
     font-weight: bold;
     color: var(--color-dark-100);
     margin: 0;
-}
+} */
 .heading-1-white {
     color: var(--color-white-100);
     font-size: 2.5rem;
