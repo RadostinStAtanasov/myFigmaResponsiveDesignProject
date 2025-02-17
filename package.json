@@ -19,5 +19,8 @@
   "dependencies": {
     "path": "^0.12.7",
     "yarn": "^1.22.22"
+  },
+  "devDependencies": {
+    "vite": "^6.1.0"
   }
 }
