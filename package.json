@@ -16,9 +16,6 @@
     "url": "https://github.com/RadostinStAtanasov/myFirstFigmaResponsiveDesign/issues"
   },
   "homepage": "https://github.com/RadostinStAtanasov/myFirstFigmaResponsiveDesign#readme",
-  "devDependencies": {
-    "vite": "^6.1.0"
-  },
   "dependencies": {
     "path": "^0.12.7",
     "yarn": "^1.22.22"
