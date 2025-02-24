@@ -26,6 +26,14 @@ header {
     margin-bottom: 30px;
 }
 
+.header-container-height-without-home-page {
+    max-width: 100%;
+    background-color: var(--color-green-100);
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 30px;
+}
 
 body {
     margin: 0px;
@@ -140,18 +148,9 @@ a {
     margin-bottom: 78px;
 }
 
-/* .navbar-boxes-size {
-    max-width: 411px;
-    height: 60px;
-    text-align: center;
-} */
-
 .label-work-width {
     width: 80px;
 }
-
-
-
 
 .plans-container p {
     line-height: 1.7;
@@ -261,6 +260,8 @@ button {
     justify-content: space-between;
     margin-bottom: 135px;
 }
+
+/* contact us */
 
 .contact-us-container {
     display: flex;
@@ -723,7 +724,7 @@ p {
 
 @media (max-width: 700px) {
     .site-content {
-        width: 300px;
+        width: 400px;
     }
 
     .navigation-menu {
@@ -769,6 +770,10 @@ p {
     }
 
     /* home page */
+
+    .img-resolution {
+        width: 420px;
+    }
 
     .header-partners-container {
         width: 170px;
@@ -826,13 +831,30 @@ p {
         font-weight: 400;
     }
 
-    .header-container {
-        height: 645px;
+    .header-container-height-without-home-page {
+        height: 120px;
         margin: 0;
     }
 
+    .container-logo img:nth-child(1) {
+        height: 50px;
+        height: 30px;
+    }
+
+    .logo {
+        width: 60px;
+        height: 15px;
+        font-size: 32px;
+    }
+
+    .container-logo {
+        width: 130px;
+        height: 30px;
+    }
+
     .header-container-content-margin-home-page {
-        margin: 0;
+        margin-bottom: 40px;
+        width: 420px;
     }
 
     .header-container-idea-section {
