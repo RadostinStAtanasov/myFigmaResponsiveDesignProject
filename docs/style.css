@@ -716,6 +716,10 @@ p {
     .our-team-container-content-head {
         margin-bottom: 50px;
     }
+
+    .navigation-menu {
+        display: block ;
+    }
    
 }
 
