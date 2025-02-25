@@ -46,7 +46,8 @@ body {
 .header-container-content {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
     height: 50px;
     
 }
@@ -104,7 +105,7 @@ ul {
     align-items: center;
     list-style-type: none;
     padding-left: 0;
-    margin: 0;
+    /* margin: 0; */
 }
 
 a {
@@ -595,10 +596,6 @@ p {
         justify-content: center;
         width: 900px;
     }
-
-    .our-team-container-content {
-
-    }
 }
 
 @media (max-width: 1024px) {
@@ -727,8 +724,38 @@ p {
         width: 400px;
     }
 
-    .navigation-menu {
+    /* .navigation-menu {
         display: none;
+    } */
+
+    .navigation-menu ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        height: 150px;
+    }
+
+    .navigation-menu ul a {
+        font-size: 2em;
+        /* padding-top: 5px; */
+    }
+
+    .header-container-height-without-home-page {
+        margin-bottom: 150px;
+
+    }
+    
+    .navigation-menu ul li:not(li:last-child) {
+        border-bottom: 1px solid var(--color-white-50);
+        width: 392px;
+        padding-bottom: 5px;
+    }
+
+    .navigation-menu {
+        margin-bottom: 20px;
+        height: 300px;
+        margin: 0;
     }
 
     .burger-menu {
@@ -832,7 +859,7 @@ p {
     }
 
     .header-container-height-without-home-page {
-        height: 120px;
+        height: 420px;
         margin: 0;
     }
 
@@ -853,7 +880,7 @@ p {
     }
 
     .header-container-content-margin-home-page {
-        margin-bottom: 40px;
+        margin-bottom: 220px;
         width: 420px;
     }
 
