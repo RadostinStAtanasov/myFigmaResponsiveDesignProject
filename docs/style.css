@@ -728,10 +728,6 @@ p {
         width: 400px;
     }
 
-    /* .navigation-menu {
-        display: none;
-    } */
-
     .navigation-menu ul {
         display: flex;
         flex-direction: column;
@@ -742,7 +738,6 @@ p {
 
     .navigation-menu ul a {
         font-size: 2em;
-        /* padding-top: 5px; */
     }
 
     .header-container-height-without-home-page {
@@ -760,12 +755,10 @@ p {
         display: none ;
         margin-bottom: 20px;
         height: 300px;
-        margin: 0;
     }
 
     .burger-menu {
         display: block;
-        /* background-image: url("/docs/burger-menu.png"); */
         width: 35px;
         height: 36px;
     }
