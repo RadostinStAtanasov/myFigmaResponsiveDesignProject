@@ -753,12 +753,13 @@ p {
     }
 
     .navigation-menu {
+        display: none;
         margin-bottom: 20px;
         height: 300px;
         margin: 0;
     }
 
-    .burger-menu-wrapper {
+    .burger-menu {
         display: block;
         background-image: url("/docs/burger-menu.png");
         width: 35px;
