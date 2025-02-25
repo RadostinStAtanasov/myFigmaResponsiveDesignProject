@@ -758,8 +758,11 @@ p {
         margin: 0;
     }
 
-    .burger-menu {
-        display: inline;
+    .burger-menu-wrapper {
+        display: block;
+        background-image: url("/docs/burger-menu.png");
+        width: 35px;
+        height: 36px;
     }
 
     .container-cards {
