@@ -13,8 +13,15 @@ function onBurgerClick() {
     //show navigation
     navmenu.style.display = "block";
 
+    if (burgerMenuElement.classList.contains('open-menu')) {
+        burgerMenuElement.classList.replace('open-menu', 'close-menu');
+    } else {
+        burgerMenuElement.classList.replace('close-menu', 'open-menu');
+    }
+
     //change burger menu
-    burgerMenuElement.style.backgroundImage =  'url("icons8-x-35.png")';
+    // burgerMenuElement.classList.remove('open-menu');
+    // burgerMenuElement.classList.add('close-menu');
                                            
 }
 

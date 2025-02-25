@@ -761,9 +761,15 @@ p {
 
     .burger-menu {
         display: block;
-        background-image: url("/docs/burger-menu.png");
+        /* background-image: url("/docs/burger-menu.png"); */
         width: 35px;
         height: 36px;
+    }
+    .open-menu {
+        background-image: url("burger-menu.png");
+    }
+    .close-menu {
+        background-image: url("icons8-x-35.png")
     }
 
     .container-cards {
