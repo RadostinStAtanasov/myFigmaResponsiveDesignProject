@@ -1,25 +1,31 @@
 :root {
-    --color-white-code: 255, 255, 255;
-    --color-white-100: rgba(var(--color-white-code), 100%);
-    --color-white-75:  rgba(var(--color-white-code), 75%);
-    --color-white-50:  rgba(var(--color-white-code), 50%);
-    --color-white-25:  rgba(var(--color-white-code), 25%);
+    --primary-color-code: 255, 255, 255;
+    --primary-color: rgb(var(--color-white-code));
+    --color-white-100: rgba(var(--primary-color-code), 100%);
+    --color-white-75:  rgba(var(--primary-color-code), 75%);
+    --color-white-50:  rgba(var(--primary-color-code), 50%);
+    --color-white-25:  rgba(var(--primary-color-code), 25%);
 
     
-    --color-green-100: #74C69D;
-    --color-green-75: rgba(var(--color-green-100),75%);
-    --color-green-50: rgba(var(--color-green-100),50%);
-    --color-green-25: rgba(var(--color-green-100), 25%);
+    --primary-color-code-green: 116, 198, 157;
+    --green-color: rgb(var(--primary-color-code-green));
+    --color-green-100: rgba(var(--primary-color-code-green), 100%);
+    --color-green-75: rgba(var(--primary-color-code-green), 75%);
+    --color-green-50: rgba(var(--primary-color-code-green), 50%);
+    --color-green-25: rgba(var(--cprimary-color-code-green), 25%);
 
-    --color-dark-100: #212529;
-    --color-dark-75: rgba(var(--color-dark-100), 75%);
-    --color-dark-50: rgba(var(--color-dark-100), 50%);
-    --color-dark-25: rgba(var(--color-dark-100), 25%);
+    --primary-color-code-dark: 33, 37, 41;
+    --dark-color: rgb(var(--primary-color-code));
+    --color-dark-100: rgba(var(--primary-color-code-dark), 100%);
+    --color-dark-75: rgba(var(--primary-color-code-dark), 75%);
+    --color-dark-50: rgba(var(--primary-color-code-dark), 50%);
+    --color-dark-25: rgba(var(--primary-color-code-dark), 25%);
 
+    /* --primary-color-code: ;
     --color-red-100: #ff0000;
     --color-red-75: rgba(var(--color-red-100), 75%);
     --color-red-50: rgba(var(--color-red-100), 50%);
-    --color-red-25: rgba(var(--color-red-100), 25%);
+    --color-red-25: rgba(var(--color-red-100), 25%); */
 
     font-family: 'Crimson Text', Arial, sans-serif;
     font-size: 16px;
